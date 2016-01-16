@@ -57,10 +57,10 @@ namespace Aiv.Vorbis
 			AudioDevice.CheckError("loading data in OpenAL buffer");
 		}
 
-		~AudioClip ()
-		{
-			AL.DeleteBuffer (this.bufferId);
-		}
+		//~AudioClip ()
+		//{
+		//	AL.DeleteBuffer (this.bufferId);
+		//}
 	}
 }
 
